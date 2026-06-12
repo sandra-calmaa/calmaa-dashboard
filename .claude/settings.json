@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls /Users/matiasbossie/ | grep -i calm)",
+      "Read(//Users/matiasbossie/**)",
+      "Bash(npm run *)",
+      "Read(//tmp/**)",
+      "Bash(git remote *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)"
+    ],
+    "additionalDirectories": [
+      "/Users/matiasbossie/Desktop/calmaa-app"
+    ]
+  }
+}
